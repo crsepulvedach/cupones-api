@@ -1,0 +1,46 @@
+# Entorno virtual
+venv/
+ENV/
+env/
+.venv/
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Archivos temporales y de sistema
+*.log
+*.sqlite3
+.DS_Store
+Thumbs.db
+
+# Archivos de cobertura
+htmlcov/
+.coverage
+.coverage.*
+.cache
+.tox/
+nosetests.xml
+coverage.xml
+
+# pytest
+.pytest_cache/
+
+# VSCode
+.vscode/
+
+# Archivos de entorno
+.env
+.env.*
+
+# Mac/Linux
+*.swp
+*.swo
+
+# Windows
+*.bak
+
+# GitHub Actions
+.github/workflows/*.log
